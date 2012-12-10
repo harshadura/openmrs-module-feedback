@@ -114,7 +114,7 @@ public class AddPredefinedSubjectFormControllerTest extends BaseModuleWebContext
             }
         }
 
-        Assert.assertEquals(this.expResult, this.result22);
+        Assert.assertEquals(this.expResult, this.result);
 
         /* To execute the test case where the predefinedsubject is > 50 */
         this.request   = new MockHttpServletRequest();
